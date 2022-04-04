@@ -31,6 +31,7 @@ public class UserController {
     public List<User> getUsers() {
         log.info("get all users");
         log.info("get all users 1");
+        log.info("get all users 2");
         return userList;
     }
 
