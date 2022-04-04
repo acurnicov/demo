@@ -30,6 +30,7 @@ public class UserController {
     @Produces("application/json")
     public List<User> getUsers() {
         log.info("get all users");
+        log.info("get all users 1");
         return userList;
     }
 
